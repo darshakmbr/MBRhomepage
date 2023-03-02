@@ -3,34 +3,36 @@
   --h2: "Circular Std";
 
   /* font sizes */
-  --font-size-5xs: 0.75rem;
-  --font-size-4xs: 0.88rem;
-  --font-size-3xs: 0.94rem;
-  --font-size-2xs: 1rem;
-  --font-size-xs: 1.13rem;
-  --font-size-sm: 1.25rem;
-  --font-size-base: 1.5rem;
-  --font-size-lg: 1.63rem;
-  --h2-size: 1.69rem;
-  --font-size-2xl: 2.86rem;
+  --font-size-5xs: 12px;
+  --font-size-4xs: 14px;
+  --font-size-3xs: 15px;
+  --font-size-2xs: 16px;
+  --font-size-xs: 17px;
+  --font-size-sm: 18px;
+  --font-size-base: 24px;
+  --font-size-lg: 25px;
+  --font-size-xl: 26.07px;
+  --h2-size: 27px;
+  --font-size-3xl: 37.94px;
+  --font-size-4xl: 45.76px;
 
   /* Colors */
   --color-white: #fff;
+  --color-goldenrod: #ffbd59;
   --color-gray-100: #142640;
   --color-gray-200: rgba(0, 0, 0, 0.1);
-  --color-goldenrod: #ffbd59;
+  --color-gainsboro: #d9d9d9;
+  --color-darkgray: #969696;
   --color-whitesmoke-100: #f5f5f7;
   --color-whitesmoke-200: #eaf1f1;
   --color-whitesmoke-300: #e9edf0;
-  --color-gainsboro: #d9d9d9;
-  --color-darkgray: #969696;
 
   /* Gaps */
-  --gap-md: 1.38rem;
+  --gap-md: 22px;
 
   /* Paddings */
-  --padding-sm: 0.5rem;
-  --padding-md: 1.5rem;
+  --padding-sm: 8px;
+  --padding-md: 24px;
 
   /* border radiuses */
   --br-2xs: 6px;
