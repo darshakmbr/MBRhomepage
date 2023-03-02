@@ -8,9 +8,26 @@
     opacity: 1;
   }
 }
+@font-face {
+  font-family: "bold";
+  src: url("./public/fonts/CircularStd-Bold.ttf");
+}
+@font-face {
+  font-family: "book";
+  src: url("./public/fonts/CircularStd-Book.ttf");
+}
+@font-face {
+  font-family: "black";
+  src: url("./public/fonts/CircularStd-Black.ttf");
+}
+@font-face {
+  font-family: "medium";
+  src: url("./public/fonts/CircularStd-Medium.ttf");
+}
 body {
   margin: 0;
   line-height: normal;
+  font-family: "bold";
 }
 .homepage-desk-top-child {
   position: absolute;
@@ -35,7 +52,7 @@ body {
 .of-6 {
   position: absolute;
   line-height: 1.63rem;
-  font-family: var(--h2);
+  font-family: "bold";
 }
 .before-and-after {
   top: 0;
@@ -176,7 +193,7 @@ body {
 .watch-video {
   position: absolute;
   line-height: 1.63rem;
-  font-family: var(--h2);
+  font-family: "book";
   color: var(--color-gray-100);
   text-align: left;
 }
@@ -616,7 +633,7 @@ body {
   margin: 0;
   position: absolute;
   left: 0;
-  font-family: var(--h2);
+  font-family: "bold";
   color: var(--color-gray-100);
   text-align: left;
 }
@@ -625,17 +642,20 @@ body {
   font-size: var(--h2-size);
   line-height: 1.63rem;
   font-weight: 700;
+  width:100%;
 }
 .receive-a-100 {
   top: 2.38rem;
   font-size: var(--font-size-2xs);
+  font-family: "book";
 }
 .fixed-price-design-from-just-parent {
   position: absolute;
   top: 0;
   left: 0;
-  width: 33.63rem;
+  width: 36.63rem;
   height: 3.63rem;
+  font-family: "bold" !important;
 }
 .bedroom-design,
 .kitchen-dining,
@@ -646,7 +666,7 @@ body {
   font-size: var(--font-size-xs);
   line-height: 1.63rem;
   font-weight: 500;
-  font-family: var(--h2);
+  font-family: "medium";
   color: var(--color-gray-100);
   text-align: center;
 }
@@ -1376,7 +1396,7 @@ body {
 .button-standard {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-sm) var(--padding-md);
+  /* padding: var(--padding-sm) var(--padding-md); */
   background-color: var(--color-goldenrod);
   height: 100%;
   width: 27.51%;
@@ -1390,6 +1410,7 @@ body {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  font-family: "black" !important;
 }
 .rectangle-parent10 {
   position: absolute;
@@ -1488,34 +1509,35 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 78.13rem;
+  width: 100%;
   height: 4rem;
 }
 .istockphoto-1407983708-612x612-icon {
   position: absolute;
   top: 0;
   left: 0.25rem;
-  width: 78.13rem;
+  width: 100% !important;
   height: 44.06rem;
   object-fit: cover;
 }
 .beautiful-interiors-by {
   font-size: var(--font-size-2xl);
-  font-family: var(--h2);
+  font-family: "bold" !important;
+  margin:auto !important;
 }
 .personalised-online-designs {
-  font-size: 2.37rem;
-  font-family: var(--h2);
+  font-size: 37.94px;
+  font-family: "book";
 }
 .transform-your-home-container {
   margin: 0;
   position: absolute;
   top: 10.69rem;
-  left: 13.75rem;
+  left: 18vw;
   color: var(--color-white);
   text-align: center;
   display: inline-block;
-  width: 51.31rem;
+  width: auto;
   height: 12.63rem;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.71);
 }
@@ -1563,7 +1585,7 @@ body {
   left: 23.44rem;
   font-size: 1.56rem;
   font-weight: 900;
-  font-family: var(--h2);
+  font-family: "bold";
   color: var(--color-white);
   text-align: center;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -1585,7 +1607,7 @@ body {
   position: absolute;
   top: 4.13rem;
   left: -0.25rem;
-  width: 78.44rem;
+  width: 100%;
   height: 44.06rem;
 }
 .instance-child {
