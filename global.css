@@ -3,41 +3,66 @@
   --h2: "Circular Std";
 
   /* font sizes */
-  --font-size-5xs: 0.75rem;
-  --font-size-4xs: 0.88rem;
-  --font-size-3xs: 0.94rem;
-  --font-size-2xs: 1rem;
-  --font-size-xs: 1.13rem;
-  --font-size-sm: 1.25rem;
-  --font-size-base: 1.5rem;
-  --font-size-lg: 1.63rem;
-  --h2-size: 1.69rem;
-  --font-size-2xl: 2.86rem;
+  --font-size-10xs: 10px;
+  --font-size-9xs: 11px;
+  --font-size-8xs: 12px;
+  --font-size-7xs: 14px;
+  --font-size-6xs: 14.4px;
+  --font-size-5xs: 15px;
+  --font-size-4xs: 16px;
+  --font-size-3xs: 16.24px;
+  --font-size-2xs: 17.47px;
+  --font-size-xs: 17px;
+  --font-size-sm: 18px;
+  --font-size-base: 20px;
+  --font-size-lg: 24px;
+  --font-size-xl: 25px;
+  --font-size-2xl: 26.07px;
+  --h2-size: 27px;
+  --font-size-4xl: 37.94px;
+  --font-size-5xl: 45.76px;
 
   /* Colors */
   --color-white: #fff;
-  --color-gray-100: #142640;
-  --color-gray-200: rgba(0, 0, 0, 0.1);
+  --color-gray-100: #838383;
+  --color-gray-200: #142640;
+  --color-gray-300: rgba(0, 0, 0, 0.1);
+  --color-gray-400: rgba(255, 255, 255, 0.8);
+  --color-dimgray-100: #6b6b6b;
+  --color-dimgray-200: #646464;
   --color-goldenrod: #ffbd59;
-  --color-whitesmoke-100: #f5f5f7;
-  --color-whitesmoke-200: #eaf1f1;
-  --color-whitesmoke-300: #e9edf0;
-  --color-gainsboro: #d9d9d9;
   --color-darkgray: #969696;
+  --color-gainsboro: #d9d9d9;
+  --color-whitesmoke-100: #f5f5f7;
+  --color-whitesmoke-200: #f2f0ec;
+  --color-whitesmoke-300: #f5eeec;
+  --color-whitesmoke-400: #f2eeed;
+  --color-whitesmoke-500: #eaf1f1;
+  --color-whitesmoke-600: #e9edf0;
+  --color-aliceblue: #e8eef4;
+  --color-linen-100: #f8ece1;
+  --color-linen-200: #f3ede1;
+  --color-floralwhite: #fcfbf2;
 
   /* Gaps */
-  --gap-md: 1.38rem;
+  --gap-md: 22px;
 
   /* Paddings */
-  --padding-sm: 0.5rem;
-  --padding-md: 1.5rem;
+  --padding-sm: 8px;
+  --padding-md: 24px;
 
   /* border radiuses */
-  --br-2xs: 6px;
-  --br-xs: 7px;
+  --br-5xs: 4px;
+  --br-4xs: 6px;
+  --br-3xs: 7px;
+  --br-2xs: 8.97px;
+  --br-xs: 9.6px;
   --br-sm: 12px;
-  --br-md: 13.04px;
-  --br-lg: 13.19px;
-  --br-xl: 15.34px;
-  --br-2xl: 28.6px;
+  --br-md: 13.19px;
+  --br-lg: 13.04px;
+  --br-xl: 14.08px;
+  --br-2xl: 14px;
+  --br-3xl: 15.34px;
+  --br-4xl: 19.06px;
+  --br-5xl: 28.6px;
 }
